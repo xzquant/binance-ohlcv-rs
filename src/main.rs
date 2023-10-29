@@ -1,3 +1,5 @@
+use binance_ohlcv::get_spot;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", get_spot())
 }
